@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    flex: 0 0 60%;
+}
+.screen{
+    width: 100%;
+    padding: 30px;
+    background-color: turquoise;
+    color: black;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+button{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.50rem 0;
+    transition: all 2s ease;
+    outline: none;
+    font-size: 20px;
+}
+button:hover{
+    background: blue;
+}
+.btn-yellow{
+    background-color: yellow;
+    font-weight: bold;
+}
+.btn-clear{
+    background-color: red;
+}
+.btn-equal{
+    background-color: green;
+}
